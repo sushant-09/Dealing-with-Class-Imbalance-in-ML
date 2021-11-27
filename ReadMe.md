@@ -1,8 +1,7 @@
 # Dealing with Class Imbalance in Machine Learning
 ## Problem Statement
 Most existing classification approaches assume the underlying training set is
-evenly distributed but many real-world classification problems have an imbalanced class distribution, such as rare disease identification, fraud detection, spam detection, churn prediction, electricity theft & pilferage etc.
-These types of problems are also known as rare event prediction or extreme event prediction.
+evenly distributed but many real-world classification problems have an imbalanced class distribution, such as rare disease identification, fraud detection, spam detection, churn prediction, electricity theft & pilferage etc. These types of problems are also known as rare event prediction or extreme event prediction.
 ##### Class Imbalance
 The training set for one class (majority) far surpasses the training set of the other class (minority), in which, the minority class is often the more interesting class.
 
@@ -11,7 +10,7 @@ In this project we,
 - Review the issues that come with learning from imbalanced data sets and various problems in class-imbalance classification.
 - Discuss some data level as well as algorithm level approaches for rare event prediction.
 
-
+[Link to the paper](https://www.researchgate.net/profile/Aida-Ali-4/publication/288228469_Classification_with_class_imbalance_problem_A_review/links/57b556d008ae19a365faff16/Classification-with-class-imbalance-problem-A-review.pdf)
 
 ## Issues with imbalanced datasets
 - Most standard algorithms are accuracy driven, however, in a class imbalance dataset, accuracy tells very little about the minority class.
@@ -25,6 +24,7 @@ Generally, this problem deals with the trade-off between recall (percent of trul
 
 ## Dataset Description
 We have chosen a dataset that contains transactions made by credit cards in September 2013 by European cardholders.
+[Link to the dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 - This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions.
 - The dataset is highly imbalanced, the positive class (frauds) account for 0.172% of all transactions.
 - It contains only numerical input variables which are the result of a PCA transformation (due to confidentiality issues).
